@@ -1,5 +1,4 @@
-## Welcome to Math-Util repository. This repo offers various math
-methods used in your projects as the helper ones.
+## Welcome to Math-Util repository. This repo offers various math methods used in your projects as the helper ones.
 
 ### _You will find in this repo the following stuff:_
 * The README.md file itself to demonstrate the MARK DOWN systax
