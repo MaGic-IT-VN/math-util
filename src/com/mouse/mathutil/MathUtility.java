@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mouse;
+package com.mouse.mathutil;
 
 /**
  *
@@ -25,7 +25,7 @@ public class MathUtility {
         //sống sót đến đây thì n = 0, 1,...20
         if(n ==0 || n==1)
             return 1; //0!, 1! = 1
-        long result = 0; // giả bộ = 0
+        long result = 1; // giả bộ = 0
         for(int i = 2; i <= n; i++)
             result *=i;
         return result; // nhân từ 2 3 4 5 6 7....
