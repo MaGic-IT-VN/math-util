@@ -8,7 +8,6 @@ package com.mouse.mathutil.test;
 import com.mouse.mathutil.MathUtility;
 import java.sql.SQLException;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static junit.framework.Assert.assertEquals;
 import org.junit.Test;
 
