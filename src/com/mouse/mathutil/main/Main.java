@@ -42,8 +42,8 @@ public class Main {
         //case : -1! thì saoo ???
         //expected =???; // ngoại lệ mà, ko so sánh dc, ko phải là value
         // mà nó chỉ xuất hiện thôi
-        // input=-1;
-        // actual = MathUtility.getFactorial(input);
+        input=-1;
+         actual = MathUtility.getFactorial(input);
         //ko in dc ngoại lệ chỉ coi nó xh hay không ???
         
         //chúng ta phải nhìn để kết luận, nhìn nhìu case

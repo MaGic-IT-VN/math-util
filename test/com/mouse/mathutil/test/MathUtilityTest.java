@@ -68,10 +68,10 @@ public class MathUtilityTest {
     @Test(expected = IllegalArgumentException.class)
     public void testFactorialGivenWrongArgumentThrowsException(){
         MathUtility.getFactorial(-1);  //phai xuất hiện exception 
-        MathUtility.getFactorial(-10); //phai xuất hiện exception
-        MathUtility.getFactorial(21);  //phai xuất hiện exception 
-        MathUtility.getFactorial(40);  //phai xuất hiện exception 
-        MathUtility.getFactorial(3);
+        //MathUtility.getFactorial(-10); //phai xuất hiện exception
+        //MathUtility.getFactorial(21);  //phai xuất hiện exception 
+        //MathUtility.getFactorial(40);  //phai xuất hiện exception 
+        //MathUtility.getFactorial(3);
         //nếu xh exception như kì vong, thì màu XANH
         //vì mau xanh here hàm ý rằng hàm chạy như thiết kế,
         //ném ngoại lệ khi đưa n cà chớn!!!
