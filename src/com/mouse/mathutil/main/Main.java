@@ -24,7 +24,7 @@ public class Main {
         long actual ;       // nếu tui đưa vào 5 
         int input = 5;      // đầu vào 5
         actual = MathUtility.getFactorial(input); // xem ói ra mấy
-        System.out.println("5!: Expected: " + expected + "; Actual: " + actual);
+        System.out.println("5!: Expted: " + expected + "; Actual: " + actual);
         // mốt test case, 1 tính huống xài hàm, test hàm, dùng hàm
         
         //case 2: 0! thì sao ???
